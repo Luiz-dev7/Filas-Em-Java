@@ -5,7 +5,7 @@ package one.digitalinovation;
 public class Main {
     public static void main() {
 
-        Fila minhaFila = new Fila();
+      Fila minhaFila = new Fila();
 
       minhaFila.enqueue(new No("primeiro"));
       minhaFila.enqueue(new No("segundo"));

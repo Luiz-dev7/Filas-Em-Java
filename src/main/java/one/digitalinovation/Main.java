@@ -5,13 +5,13 @@ package one.digitalinovation;
 public class Main {
     public static void main() {
 
-      Fila minhaFila = new Fila();
+      Fila <String> minhaFila = new Fila<>();
 
-      minhaFila.enqueue(new No("primeiro"));
-      minhaFila.enqueue(new No("segundo"));
-      minhaFila.enqueue(new No("terceiro"));
-      minhaFila.enqueue(new No("quarto"));
-      minhaFila.enqueue(new No("ultimo"));
+      minhaFila.enqueue("Primeiro");
+      minhaFila.enqueue("segundo");
+      minhaFila.enqueue("terceiro");
+      minhaFila.enqueue("quarto");
+
 
       System.out.println(minhaFila);
 
